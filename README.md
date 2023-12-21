@@ -1,36 +1,71 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Next.js Starter Setup by @brunomatosdev
 
-## Getting Started
+Welcome to the Next.js Starter Setup! This boilerplate provides a solid foundation for front-end development using Next.js, ESLint, Prettier, Autoprefixer, and Tailwind CSS.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Next.js 14:** The latest version of Next.js for building modern React applications.
+- **ESLint:** Lint your JavaScript/TypeScript code to maintain a consistent code style.
+- **Prettier:** Code formatter to enforce a consistent coding style.
+- **Autoprefixer:** Automatically adds vendor prefixes to your CSS for better cross-browser compatibility.
+- **Tailwind CSS:** Utility-first CSS framework for rapidly building custom designs.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Installation
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+To get started with this starter kit, follow these simple steps:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+1. Create a new project using `npm init`:
 
-## Learn More
+   ```bash
+   npm init -y
 
-To learn more about Next.js, take a look at the following resources:
+    Install the Next.js Starter Setup package:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+    bash
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+npm install @brunomatosdev/nextjs-starter-setup
 
-## Deploy on Vercel
+Navigate to the created project directory:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+bash
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+cd your-project-directory
+
+Initialize the project using the starter kit:
+
+bash
+
+    npm run setup
+
+Usage
+
+After completing the installation, you can run your Next.js project with the following command:
+
+bash
+
+npm start
+
+This will start the development server, and you can view your app at http://localhost:3000.
+Configuration
+
+    ESLint Config: Check out @brunomatosdev/eslint-config for ESLint configuration details.
+    Prettier Config: Explore @brunomatosdev/prettier-config for Prettier configuration details.
+
+Contributing
+
+If you encounter any issues or have suggestions for improvements, feel free to open an issue.
+License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+Author: BrunoMatosDev
+
+GitHub: https://github.com/brunomatosdev/NextJS-Setup-BrunoMatosDev
+
+Issues: https://github.com/brunomatosdev/NextJS-Setup-BrunoMatosDev/issues
+
+css
+
+Feel free to modify and expand the content as needed to provide comprehensive guidance for users of your starter kit.
+# NextJs-Starter-Kit
